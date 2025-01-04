@@ -1022,8 +1022,8 @@ a:focus {
 
 .footer .footer-menu {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
 .footer .footer-menu p {
@@ -1099,7 +1099,7 @@ a:focus {
     color: #414141;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768.98px) {
     .footer .footer-info h2 {
         margin-bottom: 20px;
         font-size: 20px;
